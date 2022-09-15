@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker logs mariadb
+docker logs -f -n 100 mariadb

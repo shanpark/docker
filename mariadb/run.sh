@@ -9,4 +9,6 @@ docker run \
 	-e MARIADB_USER=UserID \
 	-e MARIADB_PASSWORD=UserPW \
 	-e MARIADB_ROOT_PASSWORD=RootPW \
+	--log-opt max-size=20m \
+	--log-opt max-file=10 \
 	mariadb:latest

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker logs jenkins
+docker logs -f -n 100 jenkins
